@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,2BACE,kBACF,CAEA,KACE,aACF,CAEA,sBACE,kBACF","file":"style.f6ad501e.css","sourceRoot":"..\\src","sourcesContent":[".fieldset:not(:last-child) {\n  margin-bottom: 20px;\n}\n\n.lab {\n  display: block;\n}\n\n.lab:not(:last-child) {\n  margin-bottom: 10px;\n}\n"]}
