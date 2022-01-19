@@ -13,13 +13,13 @@
   </head>
 
   <body>
-    <h1></h1>
+
     <script type="text/javascript" src="./main.js"></script>
 
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
 
 
-      <fieldset class="fieldset">
+      <fieldset class="fieldset first">
         <legend>Personal information</legend>
 
         <label class="lab">
@@ -84,7 +84,7 @@
           <input name="cats" type="radio"> No
         </label>
 
-        <label class="lab">
+        <label class="lab color">
           What is your favorite color?
           <input
             name="color"
@@ -95,7 +95,7 @@
 
         <label class="lab">
           What time do you go to bed?
-          <input name="bed" type="time">
+          <input name="bed" type="time" step="2">
         </label>
 
         <label class="lab">
@@ -124,7 +124,7 @@
           <textarea
             name="comments"
             rows="2"
-            cols="12"
+            cols="20"
             minlength="3"
             maxlength="255"
           ></textarea>

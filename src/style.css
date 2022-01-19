@@ -1,8 +1,11 @@
-.lab {
-  display: block;
-  margin-bottom: 10px;
+.fieldset:not(:last-child) {
+  margin-bottom: 20px;
 }
 
-.fieldset {
-  margin-bottom: 20px;
+.lab {
+  display: block;
+}
+
+.lab:not(:last-child) {
+  margin-bottom: 10px;
 }
